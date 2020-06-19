@@ -124,7 +124,7 @@ const MAX_QUESTIONS = 8;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    availableQuestions = [ ...questions];
+    availableQuestions = [...questions];
     console.log(availableQuestions);
     getNewQuestion();
 };
