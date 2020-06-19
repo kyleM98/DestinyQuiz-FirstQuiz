@@ -1,0 +1,45 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem; 
+    border: 0.1rem solid #faeb13;
+    background-color: rgb(129, 129, 16, 0.25);
+    padding: 2.2rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(213, 235, 86, 0.699);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(129, 129, 16);
+    color: whitesmoke;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: rgb(39, 185, 39);
+}
+
+.incorrect {
+    background-color: rgb(248, 8, 8);
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 3rem;
+}
